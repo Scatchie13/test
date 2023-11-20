@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 id="myH1">Welcome</h1>
+        <label id="myLabel">Your name:</label>
+        <input id="myInput">
+        <button id="myBtn">submit!</button>
+        <p id="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint maiores rerum animi cumque nostrum soluta cupiditate error fuga pariatur doloremque iste rem quasi, culpa necessitatibus asperiores ut. Dignissimos, dolores nobis.</p>
+    </section>
+    <section>
+        <h1 class="haha">Счетчик пидорасов be like</h1>
+        <label id="countLabel">0</label><br>
+        <div id="btnContainer">
+            <button class="btns" id="decreaseBtn">-1 пидор</button>
+            <button class="btns" id="resetBtn">сброс счетчика</button>
+            <button class="btns" id="increaseBtn">+1 пидор</button>
+        </div>
+    </section>
+    <section>
+        <div class="rollContainer">
+            <h1 class="haha">-roll like a dota2</h1>
+            <label class="myLabel">Input your roll value here:</label>
+            <input id="inputRoll" size="40" placeholder="example: min-10; max-100;"><br><br>
+            <label id="rollLabel" class="rollLabel">0</label>
+            <button id="rollBtn" class="btns rollBtn">Roll</button>
+        </div>
+    </section>
+    <section>
+        <div class="rollContainer">   
+            <label class="myLabel">Enter your age:</label>
+            <input id="inputText"><br>
+            <button class="btns" id="ageSubmit">submit</button>
+            <p id="ageText">Empty</p>
+        </div>
+    </section>
+    <section>
+        <div class="radioBtns">
+            <input type="checkbox" id="myCheckBox">
+            <label for="myCheckBox">subscribe</label><br><br><br>
+            <input type="radio" id="visaBtn" name="card">
+            <label for="visaBtn">Visa</label>
+            <input type="radio" id="masterCardBtn" name="card">
+            <label for="masterCardBtn">MasterCard</label>
+            <input type="radio" id="payPalBtn" name="card">
+            <label for="payPalBtn">PayPal</label>
+            <button type="submit" id="submitPay" class="btns">Submit</button><br><br>
+            <p id="subResult"></p>
+            <p id="paymentResult"></p>
+        </div>
+    </section>
+    <section>
+        
+    </section>
+</body>
+<script src="main.js"></script>
+</html>

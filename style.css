@@ -1,0 +1,75 @@
+body{
+    background-color: #333;
+    color: aqua;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+input{
+    background-color: #333;
+    color: rgb(204, 218, 3);
+    padding: 5px;
+}
+
+#myH1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+button{
+    color: aqua;
+    background-color: #333;
+}
+
+#countLabel{
+    display: block;
+    font-size: 10em;
+}
+
+#btnContainer {
+    margin-bottom: 150px;
+}
+
+.btns {
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid #444;
+    border-radius: 30px;
+    transition: all 500ms ease;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btns:hover{
+    background-color: #777;
+}
+
+.haha{
+    margin-top: 150px;
+    font-size: 54px;
+}
+
+.rollContainer{
+    margin-bottom: 200px;
+}
+
+.rollLabel{
+    font-size: 7em;
+    padding-right: 100px;
+}
+
+.rollBtn{
+    margin: 50px;
+    padding: 50px;
+}
+
+#ageSubmit{
+    margin: 50px;
+}
